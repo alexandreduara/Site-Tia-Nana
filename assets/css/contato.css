@@ -1,0 +1,68 @@
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../img/bolos/bolosbackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10vh;
+}
+
+.contato__whatsapp{
+    text-align: center;
+    color: aliceblue;
+    animation: bounce;
+    animation-duration: 1s;
+    
+}
+.tia__nana{
+    width: 400px;
+}
+
+.contato__whatsapp--texto{
+    height: 300px;
+    margin-top: 100px;
+    animation: bounce;
+    animation-duration: 1s;
+}
+.contato__whatsapp--texto p{
+    font-size: 2em;
+    text-shadow: 3px 3px 3px black ;
+    animation: bounce;
+    animation-duration: 1s;
+}
+
+
+.botao__whatsapp{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 350px;
+    height: 2em;
+    border-radius: 3em;
+    margin: 1em auto 3em auto;
+    background-color: #28A745;
+    font-size: 1.6em;
+    font-weight: 700;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 2px 2px 3px black;
+    animation: backInLeft;
+    animation-duration: 1s;
+}
+
+    
+.mapa{
+    display: flex;
+    margin: 20px auto;
+    border-radius: 20px;
+    width: 90vw;
+}
+
+.nav-list{
+    padding-bottom: 15px;
+}
+
+.logo{
+    width: 40px;
+    padding-top: 3px;
+}
