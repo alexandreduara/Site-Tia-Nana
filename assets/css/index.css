@@ -57,30 +57,26 @@
 }
 
 .card__kits{
-    background-color: rgb(253, 221, 181);
+    background-image: linear-gradient(rgba(135, 132, 132, 0.4), rgba(135, 130, 130, 0.4)),url(../img/aniversario.jpg);
+    background-size: cover;
+    padding-top: 10vh;
 }
 
 .cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
-}
-
-h1{
-    color: rgb(0, 0, 0);
-    font-size: 2em;
-    text-shadow: 3px 3px 3px rgb(255, 255, 255) ;
-    padding: 40px 0;
-    animation: bounce; 
-    animation-duration: 1s;
-    font-family: Cursive;
-    text-align: center;
-    font-size: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-bottom: 5vh;
 }
 
 .card{
     margin:  10px auto;
     animation: backInLeft;
     animation-duration: 1s;
+    border-radius: 30px;
+}
+
+.card-image-top{
+    border-radius: 30px;
 }
 
 .Bolo{
