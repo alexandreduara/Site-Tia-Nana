@@ -6,7 +6,6 @@ html, body {
 .carrosseis{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    background-color: var(--marrom-claro);
 }
   
   
@@ -76,7 +75,7 @@ html, body {
 
 
   .carrosseis__titulo{
-    color: var(--rosa);
+    color: var(--marrom);
     font-weight: 900;
     font-size: 60px;
   }

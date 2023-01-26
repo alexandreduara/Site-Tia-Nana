@@ -59,7 +59,7 @@
 .card__kits{
     background-image: linear-gradient(rgba(135, 132, 132, 0.4), rgba(135, 130, 130, 0.4)),url(../img/aniversario.jpg);
     background-size: cover;
-    padding-top: 10vh;
+    padding-top: 1vh;
 }
 
 .cards{
