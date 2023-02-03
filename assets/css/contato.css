@@ -1,20 +1,15 @@
-header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../img/bolos/bolosbackground.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 10vh;
-}
 
 .contato__whatsapp{
     text-align: center;
     color: aliceblue;
     animation: bounce;
     animation-duration: 1s;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../img/bolos/bolosbackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10vh;
     
-}
-.tia__nana{
-    width: 400px;
 }
 
 .contato__whatsapp--texto{
@@ -56,13 +51,4 @@ header{
     margin: 20px auto;
     border-radius: 20px;
     width: 90vw;
-}
-
-.nav-list{
-    padding-bottom: 15px;
-}
-
-.logo{
-    width: 40px;
-    padding-top: 3px;
 }
