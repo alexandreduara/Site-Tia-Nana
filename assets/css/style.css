@@ -2,18 +2,21 @@
 @import url("carrosseis.css");
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
 
 :root{
   --laranja: #DB7F67;
   --creme: #DBBEA1;
-  --marrom-claro: #A37B73;
+  --rosa-pastel: #E2A09E;
   --marrom: #3F292b;
   --rosa: #D34F73;
 }
 
+
 body{
-  background-color: var(--creme);
+  background-image: linear-gradient(rgba(135, 132, 132, 0.4), rgba(135, 130, 130, 0.4)),url(../img/background-bolo.jpg);
+  background-size: cover;
+
   /* background: linear-gradient(72deg, #ffffff9d 1%, hsl(0, 100%, 50%) 99%);*/
 }
 
@@ -21,7 +24,7 @@ body{
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gotu', sans-serif;
 }
 
 a {

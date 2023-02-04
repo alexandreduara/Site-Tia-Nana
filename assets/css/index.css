@@ -33,10 +33,19 @@
     0 100px 800px rgba(0, 0, 0, 0.012);
 }
 
+header{
+    background-image: linear-gradient(rgba(135, 132, 132, 0.4), rgba(135, 130, 130, 0.4)),url(../img/background-bolo-2.jpg);
+    background-size: cover;
+    padding: 10px;
+}
+
 
 @media (max-width: 700px) {
     .carousel{
-        width: 100vw;
+        width: 95vw;
+    }
+    header{
+        padding: 2.5vw;
     }
 }
 .carrossel__seta{
@@ -59,8 +68,6 @@
 }
 
 .card__kits{
-    background-image: linear-gradient(rgba(135, 132, 132, 0.4), rgba(135, 130, 130, 0.4)),url(../img/aniversario.jpg);
-    background-size: cover;
     padding-top: 1vh;
 }
 
@@ -83,4 +90,8 @@
 
 .Bolo{
     background-color: rgb(247, 208, 188);
+}
+
+.card img{
+    border-radius: 20px;
 }

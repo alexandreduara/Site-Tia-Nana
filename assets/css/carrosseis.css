@@ -1,11 +1,8 @@
-html, body {
-    margin: 0;
-    padding: 0;
-  }
 
 .carrosseis{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
 }
   
   

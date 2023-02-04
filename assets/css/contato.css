@@ -9,7 +9,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 10vh;
-    
+    width: 100vw;
 }
 
 .contato__whatsapp--texto{

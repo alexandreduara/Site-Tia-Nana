@@ -3,7 +3,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background-color: var(--marrom);
+    background-color: var(--rosa-pastel);
     height: 8vh;
 }
 
@@ -14,7 +14,7 @@ nav {
 }  
 
 .logo{
-    width: 85px;
+    height: 8vh;
     padding-right: 25px;
 }
 
@@ -64,6 +64,8 @@ nav {
 
 .nav-list.active {
     transform: translateX(0);
+    width: 50vw;
+    overflow-x: hidden;
 }
 
 .mobile-menu.active .line1 {
@@ -82,11 +84,6 @@ nav {
 }
 
 @media (max-width: 999px) {
-
-
-    body {
-      overflow-x: hidden;
-    }
   
     .titulo {
       font-size: 15px; 
@@ -99,15 +96,16 @@ nav {
       position: absolute;
       top: 8vh;
       right: 0;
-      width: 50vw;
+      width: 0vw;
       height: 92vh;
-      background: var(--marrom);
+      background: var(--rosa-pastel);
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
       transform: translateX(100%);
       transition: transform 0.3s ease-in;
       z-index: 10;
+      overflow-x: hidden;
     }
 
     .nav-list li {
