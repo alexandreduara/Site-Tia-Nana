@@ -99,7 +99,7 @@ nav {
   
     .nav-list {
       position: absolute;
-      top: 8vh;
+      top: 50px;
       right: 0;
       width: 0vw;
       height: 92vh;
