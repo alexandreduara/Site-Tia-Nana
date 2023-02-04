@@ -7,7 +7,7 @@ nav {
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background-color: var(--rosa-pastel);
-    height: 92px;
+    height: 50px;
 }
 
 .navbar__info{
