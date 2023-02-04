@@ -89,7 +89,7 @@ nav {
 @media (max-width: 999px) {
   
     .titulo {
-      font-size: 15px;
+      font-size: 12px;
       display: flex;
       flex-wrap: wrap;
       text-transform: uppercase;
@@ -122,6 +122,9 @@ nav {
     .mobile-menu {
       display: block;
       color: #fff;
+    }
+    .logo{
+      padding-right: 2px;
     }
 }
 

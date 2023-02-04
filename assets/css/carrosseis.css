@@ -2,6 +2,7 @@
 .carrosseis{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-right: 40px;
 
 }
   
@@ -40,9 +41,9 @@
     overflow-x: hidden;
   }
 
-  @media (max-width: 600px){
+  @media (max-width: 900px){
     .pic-ctn{
-      width: 90vw;
+      width: 50vw;
     }
   }
 
