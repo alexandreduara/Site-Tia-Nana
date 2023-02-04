@@ -1,11 +1,16 @@
 
 .carrosseis{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding-right: 40px;
-
-}
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding-right: 40px;
   
+}
+
+.carrosseis__titulo{
+  color: var(--marrom);
+  font-weight: 900;
+  font-size: 60px;
+}
   
   @keyframes display {
     0% {
@@ -46,6 +51,14 @@
       width: 50vw;
     }
   }
+  @media (max-width: 600px){
+    .pic-ctn{
+      width: 100vw;
+    }
+    .carrosseis__titulo{
+      font-size: 40px;
+    }
+  }
 
   
   .pic-ctn > img {
@@ -73,9 +86,4 @@
   }
 
 
-  .carrosseis__titulo{
-    color: var(--marrom);
-    font-weight: 900;
-    font-size: 60px;
-  }
 

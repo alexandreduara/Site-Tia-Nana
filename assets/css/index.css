@@ -4,7 +4,7 @@
 .carousel{
     width: 70vw;
     display: flex;
-    margin: 10px auto;
+    margin: 90px auto 20px auto;
 }
 
 #imagem{
@@ -71,7 +71,7 @@ header{
 }
 
 .card__kits{
-    padding-top: 1vh;
+    padding-top: 50px;
 }
 
 .cards{
@@ -98,3 +98,4 @@ header{
 .card img{
     border-radius: 20px;
 }
+
