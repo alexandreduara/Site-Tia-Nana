@@ -89,7 +89,9 @@ nav {
 @media (max-width: 999px) {
   
     .titulo {
-      font-size: 15px; 
+      font-size: 15px;
+      display: flex;
+      flex-wrap: wrap;
       text-transform: uppercase;
       letter-spacing: 4px;
       text-decoration: none;
